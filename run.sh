@@ -9,7 +9,7 @@ cargo install rustup-toolchain-install-master
 rustup-toolchain-install-master $commit
 
 rustc +$commit \
-  --crate-type=staticlib
+  --crate-type=staticlib \
   --target aarch64-apple-ios-sim \
   code.rs 
 
