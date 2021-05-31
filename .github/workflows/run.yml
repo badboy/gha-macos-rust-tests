@@ -3,7 +3,7 @@ on: [push]
 
 jobs:
   build-latest:
-    name: Test on Latest
+    name: Run
     runs-on: macos-latest
 
     steps:
