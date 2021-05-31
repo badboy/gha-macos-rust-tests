@@ -7,8 +7,8 @@ commit=ab06beff0b87a039398867d10c9e6570a1d5efc4
 cargo install rustup-toolchain-install-master
 
 rustup-toolchain-install-master \
-  --targets aarch64-apple-ios-sim \
-  $commit
+  $commit \
+  --targets aarch64-apple-ios-sim
 
 rustc +$commit \
   --crate-type=staticlib \
