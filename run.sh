@@ -16,4 +16,4 @@ rustc +$commit \
   code.rs 
 
 ls -lh
-tool -l *.a
+otool -l *.a
